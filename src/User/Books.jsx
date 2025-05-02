@@ -10,7 +10,7 @@ export default function Books() {
 
       </div>
       <div className='bg-white p-4 rounded-shadow overflow-x-auto'>
-        <table className='w-full text-left '>
+        <table className='w-full text-left border border-collapse border-gray-300 '>
             <thead>
          <tr className='font-bold text-2xl bg-gray-400'>
             <th>Title</th>
@@ -19,12 +19,25 @@ export default function Books() {
          </tr>
          </thead>
          <tbody>
-            <tr className='border-t'>
-                <td>Brave Journey</td>
-                <td>John Doe</td>
-                <td>2005</td>
+            <tr className='hover:bg-green-300 text-black text-lg font-bold'>
+                <td className='border border-black'>Brave Journey</td>
+                <td className='border border-black'>John Doe</td>
+                <td className='border border-black'>2005</td>
 
             </tr>
+           
+            <tr className='hover:bg-green-300 text-black text-lg font-bold'>
+              <td className='border border-black'>Heart of faithful</td>
+              <td className='border border-black'>Gatete OG</td>
+              <td className='border border-black'>2004</td>
+            
+            </tr>
+            <tr className='hover:bg-green-300 text-black text-lg font-bold'>
+              <td className='border border-black'>Five love language</td>
+              <td className='border border-black'>AKARIZA Brune</td>
+              <td className='border border-black'>2006</td>
+              
+              </tr>
          </tbody>
         </table>
       </div>
